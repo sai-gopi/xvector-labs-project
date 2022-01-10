@@ -1,3 +1,9 @@
+# requirements = [pip install mysql-connector-python,
+#                 pip install mysql,
+#                 pip install flask,
+#                 pip install matplotlib]
+
+
 from mysql.connector.errors import ProgrammingError, InterfaceError
 from mysql.connector import connection
 from socket import gaierror
